@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: 30px auto;
+    font-family: "Poppins", sans-serif;
+}
+.logo{
+    font-size: 1.3rem;
+    font-weight: 100;
+    display: flex;
+}
+.img-logo{
+    width: 30px;
+}
+.mainheader{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+li a{
+    color: black;
+    text-decoration: none; 
+    font-size: 0.9rem; 
+}
+.logo_txt{
+    font-family: "Grey Qo", cursive;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.main_container{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    gap: 30px;
+    font-family: "Poppins", sans-serif;
+}
+.sub_container1, .sub_container2{
+    width: 50%;
+}
+.sub_container1 h1{
+    font-size: 2rem;
+    margin-bottom: 20px;   
+}
+.sub_container1 {
+    font-size: 0.8rem;
+    margin-bottom: 20px; 
+    font-family: "Inter", sans-serif;
+}
+.hero_imgs{
+    width: 100%;
+}
+.btn{
+    background: #34D461;
+    padding: 10px 45px;
+    border: none;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.bg{
+    background: url(./assets/bg_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 150px 0px;
+}
+.bg p{
+    max-width: 300px;
+    margin: 0 auto;
+}
+section{
+    margin-bottom: 200px;
+}
+.sub-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.content{
+    width: 50%;
+}
+.images{
+    width: 50%;
+}
+.card-img{
+    width: 100%;
+}
+.card-img2, .card-img3{
+    width: 45%;
+    margin: 10px;
+}
+.content p{
+    font-size: 0.8rem;
+}
+.content, h4, h3, p{
+    margin-bottom: 20px;
+}
+.partners h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 50px;
+}
+.img_part img{
+    margin: 0px 40px;
+}
+.form-container{
+    width: 50%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+form > input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+input::placeholder, textarea::placeholder{
+    font-family: "Inter", sans-serif;
+    margin: 5px;
+    padding: 5px;
+}
+form, textarea{
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.form-wrapper{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.form-container{
+    width: 40%;
+    margin-bottom: 40px;
+}
+.investor-container{
+    width: 40%;
+}
+.mail{
+    margin: 25px 0px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.mail p{
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+}
+.mail img{
+    width: 8%;
+}
+footer{
+    background: #34D461;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    padding: 3px;
+    font-size: 0.8rem;
+}
+
+@media screen and (max-width: 500px) {
+    .main_container, .sub-container, .form-wrapper{
+        display: block;
+    }
+    .hero_imgs, .sub_container1, .sub_container2, .sub_container, .content, .images, .card-img2, .card-img3, .form-container, .investor-container{
+        width: 100%;
+    }
+    .img_part img{
+        margin-bottom: 40px;
+    }
+    section{
+        margin-bottom: 150px;
+    }
+    .logo{
+        font-size: 0.8rem;
+    }
+    .logo span{
+        font-size: 0.8rem;
+    }
+    li a{
+        color: black;
+        text-decoration: none; 
+        font-size: 0.7rem; 
+    }
+}
+
+/* name, hexa-decimal (0-F), rgb(0, 255) ctrlp :23 */
+
+/* pesudo element */
+
+/* .hero:hover::after{
+    content: "Hi";
+}
+.hero:hover::before{
+    content: "Ji";
+}
+.hero{
+    user-select: none;
+}
+::selection{
+    background-color: #34D461;
+    color: white;
+} */
+
+
